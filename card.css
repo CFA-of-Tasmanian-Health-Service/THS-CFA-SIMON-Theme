@@ -1,0 +1,278 @@
+/*
+* z-index "hierarchy"
+*/
+/*
+* http://confluence.qliktech.com/display/CL/Icon+Font+Rules
+*/
+
+.sheet-grid #grid{
+  background:#efefef;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .qv-gridcell .sheet-list.cell-content {
+  border: none;
+  padding: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .cell-content .qv-object {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-viz.qv-viz-with-disclaimer {
+  height: -webkit-calc(100% - 2.19em);
+  height: calc(100% - 2.19em);
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-viz-disclaimer {
+  padding: 0.5em 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-wrapper .qv-object {
+  border: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object .qv-object-header.thin {
+  height: 38px !important;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object .qv-footer-wrapper {
+  border: none;
+  border-top: 1px solid #D9D9D9;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-nav {
+  top: 0px;
+  background: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-nav.zero-top {
+  top: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper .qv-object {
+  /* border: 1px solid #D9D9D9; */
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper .qv-inner-object {
+  /* padding: 0px 10px 5px 10px; */
+  background: #FFFFFF !important;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper.has-footnote .qv-inner-object {
+  padding-bottom: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object .qv-footer-wrapper {
+  height: auto;
+  background: #FFFFFF !important;
+  padding: 6px 10px;
+  border-top: 1px solid #D9D9D9;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object .qv-object-footnote {
+  margin-top: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-selections-active {
+  border-color: #A6A6A6;
+  border-top: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object .qv-object-header.thin {
+  height: 5px;
+  padding: 0;
+}
+
+.qv-client.qv-card #qv-stage-container #grid header.qv-object-header{
+  padding-left:5px;
+}
+
+.touch-off .qv-client.qv-card #qv-stage-container #grid .qv-object .qv-object-header.thin {
+  height: 0px;
+}
+.touch-off .sheet-list .qv-client.qv-card #qv-stage-container #grid .qv-object .qv-object-header.thin {
+  height: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object .qv-object-title {
+  padding-top: 10px;
+  font-size:2em !important;
+  color:#545352!important;
+  font-weight: 400;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane {
+  border: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-inner-object {
+  padding: 0px;
+  background: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-footer-wrapper {
+  border: none;
+  background: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-object-header.thin {
+  height: 0;
+}
+.touch-off .qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-object-header.thin {
+  height: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-object-nav {
+  right: 2px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-filterpane .qv-object-nav.qv-rtl-layout {
+  left: 2px;
+  right: auto;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object.qv-object-filterpane .qv-object-nav {
+  left: auto;
+  right: 10px;
+}
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object.qv-object-filterpane .qv-object-nav.qv-rtl-layout {
+  right: auto;
+  left: 10px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane {
+  border: none;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane .qv-filterpane-column {
+  margin: 0 4px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane .qv-filterpane-column:first-child {
+  margin-left: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane .qv-filterpane-column:last-child {
+  margin-right: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane.qv-rtl-layout .qv-filterpane-column {
+  margin: 0 4px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane.qv-rtl-layout .qv-filterpane-column:first-child {
+  margin-right: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-filterpane.qv-rtl-layout .qv-filterpane-column:last-child {
+  margin-left: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-kpi .qv-inner-object {
+  padding: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-kpi .qv-inner-object .qv-object-header {
+  padding-left: 10px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-kpi .qv-inner-object .qv-object-header.thin {
+  height: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-kpi .qv-inner-object .qv-object-header.qv-rtl-layout {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-listbox {
+  border: 1px solid #D9D9D9;
+  background: #FFFFFF;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-listbox.qv-selections-active {
+  border: 1px solid #A6A6A6;
+  border-top: 1px solid transparent;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-map .qv-inner-object {
+  padding: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-map .qv-inner-object .qv-object-header {
+  padding-left: 10px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-map .qv-inner-object .qv-object-header.qv-rtl-layout {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-pivot-table .qv-inner-object {
+  padding: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object-table .qv-inner-object {
+  padding: 0;
+}
+.qv-client.qv-card #qv-stage-container #grid .qv-object.qv-object-table.qv-selections-active {
+  border: 1px solid #A6A6A6;
+  border-radius: 4px;
+}
+.qv-client.qv-card #qv-stage-container .qvt-sheet {
+  color: #595959;
+}
+.qv-client.qv-card #qv-stage-container .qvt-sheet:not(.qv-custom-size) {
+  background-color: #FFFFFF;
+}
+.qv-client.qv-card #qv-stage-container .qv-object-nav {
+  margin-top: 0px;
+}
+.qv-client.qv-card #qv-stage-container .qv-object-nav.inline {
+  top: 3px;
+}
+.qv-client.qv-card #qv-stage-container .qv-object-nav > a.border {
+  border-radius: 3px;
+  border: none;
+  padding: 0px 3px;
+}
+.qvt-sheet.qv-custom-size #grid {
+  background-color: #FFFFFF;
+}
+
+.qv-object-qsstatistic .ui.statistic>.label, .qv-object-qsstatistic .ui.statistics .statistic>.label{
+  font-weight: 500 !important;
+}
+
+.qv-collapsed-listbox{
+  height: 45px !important;
+}
+
+button.lui-button.lui-button--gradient.full-width {
+  height: 100%;
+  background:#4477aa;
+  border:0px;
+  border-radius:0px;
+  color:#ffffff;   
+  transition:0.3s !important; 
+}
+
+
+button.lui-button.lui-button--gradient.full-width:hover {
+  height: 100%;
+  background:#7b7a78;
+}
+
+/* .qv-client.qv-card #qv-stage-container .qvt-sheet #grid .cell-content {
+  box-shadow:2px 3px #efefef;
+} */
+
+/* Custom CSS CFA */
+/* article.qv-object-VizlibTable, .qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper .qv-object.qvt-visualization{
+  background-image:none !important;
+} */
+
+/* .qv-st *{
+  font-size:18px;
+} */
+
+.qv-object-EProject-Zapper .main-container{
+  padding-top:50px !important;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper .qv-inner-object{
+  padding:0px !important;
+}
+
+.card-container .q-outer-card-box {
+    position: fixed;
+    top:40%;
+}
+
+
+.qv-object-qsstatistic .ui.cards .ui.card a, .qv-object-qsstatistic .ui.cards .ui.segment a, .qv-object-qsstatistic .ui.segments .ui.card a, .qv-object-qsstatistic .ui.segments .ui.segment a {
+	min-width:100% !important;
+}
+
+a.ui.large.top.attached.center.aligned.label {
+  width: auto !important;
+}
+
+.ui.statistics {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+a.ui.label {
+    font-size: 1rem !important;
+}
+
+.ui.horizontal.segments{
+    overflow-x: hidden !important;
+}
